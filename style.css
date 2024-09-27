@@ -456,25 +456,97 @@ html, body {
 }
 
 @media (max-width: 950px) {
-    .why-us-grid{
+    .why-us-grid {
         grid-template-columns: repeat(1, 1fr);
     }
-    .why-us-item{
+
+    .why-us-item {
         width: 70vw;
     }
-    .reviews-grid{
+
+    .reviews-grid {
         grid-template-columns: repeat(1, 1fr);
     }
-    .review{
+
+    .review {
         width: 80vw;
     }
-    .title{
+
+    .title {
         font-size: 6vw;
     }
-    .description{
+
+    .description {
         font-size: 2.3vw;
     }
-    .subtitle{
+
+    .subtitle {
         font-size: 3vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .bb {
+        padding: 15px 10px;
+        font-size: 14px;
+        border-radius: 15px;
+    }
+
+    .why-us-item {
+        padding: 20px 10px;
+        width: 85vw;
+    }
+
+    .title {
+        font-size: 7vw;
+    }
+
+    .subtitle {
+        font-size: 4vw;
+    }
+
+    .comparison-table {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-option {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .payment-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .bb {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+    .description {
+        font-size: 3vw;
+    }
+
+    .subtitle {
+        font-size: 5vw;
+    }
+
+    .reviews-grid {
+        padding: 0 20px;
+    }
+
+    .pricing-option {
+        padding: 10px;
+    }
+
+    .why-us-item {
+        padding: 10px;
+        width: 90vw;
+    }
+
+    .payment-item img {
+        width: 15vw;
     }
 }
